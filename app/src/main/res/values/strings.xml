@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Gravity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_purpose">How much you weight on other planets ?</string>
+    <string name="show_weight">Show Weight</string>
+    <string name="enter_weight">Enter your weight on Earth !!</string>
+    <string name="weight_on_planet">Weight on Planet</string>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"
+        tools:context=".MainActivity">
+
+    <ImageView
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            app:srcCompat="@drawable/img_earth"
+            android:id="@+id/earthId" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="82dp" android:layout_marginRight="82dp" android:layout_marginBottom="196dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp" app:srcCompat="@drawable/img_jupiter"
+            android:id="@+id/jupiterId" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="48dp" android:layout_marginRight="48dp" android:layout_marginTop="220dp"
+            app:layout_constraintTop_toTopOf="parent"
+    />
+    <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp" app:srcCompat="@drawable/img_mars"
+            android:id="@+id/marsId" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp" android:layout_marginTop="312dp"
+            app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp" app:srcCompat="@drawable/img_venus"
+            android:id="@+id/venusId"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="164dp" android:layout_marginRight="164dp" android:layout_marginBottom="176dp"/>
+    <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp" app:srcCompat="@drawable/img_saturn"
+            android:id="@+id/saturnId" android:layout_marginTop="160dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="108dp" android:layout_marginStart="108dp"/>
+    <ImageView
+            android:layout_width="62dp"
+            android:layout_height="62dp" app:srcCompat="@drawable/img_uranus"
+            android:id="@+id/uranusId" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="230dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginLeft="42dp"
+            android:layout_marginStart="42dp"/>
+    <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp" app:srcCompat="@drawable/img_neptune"
+            android:id="@+id/neptuneId"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="260dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginLeft="24dp" android:layout_marginStart="24dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="140dp" app:srcCompat="@drawable/in_space"
+            android:id="@+id/spaceId"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"/>
+    <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp" app:srcCompat="@drawable/img_mercury"
+            android:id="@+id/mercuryId" android:layout_marginBottom="204dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="64dp" android:layout_marginStart="64dp"/>
+
+    <Button
+            android:text="@string/weight_on_planet"
+            android:layout_width="323dp"
+            android:layout_height="47dp"
+            android:background="@drawable/round_edge_button"
+            android:id="@+id/weightOnPlanetId" android:textStyle="bold"
+            android:textSize="14sp" android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="42dp"
+            android:layout_marginStart="42dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="42dp"
+            android:layout_marginRight="42dp"
+            android:layout_marginBottom="61dp" app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+            android:text="Temperature: -270.45°Celsius "
+            android:gravity="center"
+            android:layout_width="315dp"
+            android:layout_height="23dp"
+            android:id="@+id/planetInfoId"
+            android:textColor="@android:color/background_light" android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="46dp" android:layout_marginRight="46dp" android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="46dp"
+            android:layout_marginStart="46dp"/>
+    <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp" app:srcCompat="@drawable/img_sun"
+            android:id="@+id/sunId"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>
