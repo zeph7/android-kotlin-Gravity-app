@@ -42,6 +42,7 @@ Its an Info App!!
 5. Install the apk
 
 The app is finally installed on your Android mobile device !!
+
 To directly download the apk visit the [link](https://github.com/ashish7zeph/android-kotlin-Gravity-app/tree/master/apk)
 
  # Screenshots:
@@ -60,7 +61,7 @@ To directly download the apk visit the [link](https://github.com/ashish7zeph/and
 
 ## Kotlin Android Activity
 
-Kotlin code of the splash screen activity in this project is shown below. For kotlin code of other activities visit the [link]()
+Kotlin code for the splash screen activity in this project is shown below. For kotlin code of other activities visit the [link](https://github.com/ashish7zeph/android-kotlin-Gravity-app/tree/master/app/src/main/java/com/zeph7/gravity)
 ```kotlin
 package com.zeph7.gravity
 
@@ -93,7 +94,7 @@ class SplashActivity : AppCompatActivity() {
 }
 ```
 
-Planets class is used throught the Project Activities to get the Activity for each planet
+`Planet` class is used throughtout the Project Activities to create Activity individual for each planet
 
 ```kotlin
 package com.zeph7.gravity
