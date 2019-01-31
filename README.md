@@ -10,7 +10,7 @@
 
 Build a Space Information android app with kotlin support
 
-It is an Information app providing the info of each and every planet in the solar system also it contain an classed activity for calculation of user weight on different planets in the solar system
+It is an Information app providing the info of each and every planet in the solar system (e.g. mass, known moons, age, polar diameter, orbit period, etc). Also it contain a classed activity for calculation of user weight on different planets in the solar system. Furthermore it provides information with facts about space along with general temperature of space at the bottom.
 
 Its an Info App!!
 
@@ -20,10 +20,13 @@ Its an Info App!!
 * Animation styles
 * Customised buttons
 * Custom ListView
+* ScrollView
+* ImageView
 * Switiching animations
 * Minimal Design
 * Simplified Theme
 * Responsive BackPress
+* Well Constrained Layout
 
 ## Platform
         -> Android Studio
@@ -48,8 +51,7 @@ To directly download the apk visit the [link](https://github.com/ashish7zeph/and
 <img alt="App image" src="screenshots/img2.jpg" width="30%" hspace="10">
 <img alt="App image" src="screenshots/img3.jpg" width="30%" hspace="10">
 </div>
-
-
+.
 <div style="display:flex;">
 <img alt="App image" src="screenshots/img4.jpg" width="30%" hspace="10">
 <img alt="App image" src="screenshots/img5.jpg" width="30%" hspace="10">
