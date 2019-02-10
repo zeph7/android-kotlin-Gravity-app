@@ -61,46 +61,18 @@ To directly download the apk visit the [link](https://github.com/ashish7zeph/and
 
 ## Kotlin Android Activity
 
-Kotlin code for the splash screen activity in this project is shown below. For kotlin code of other activities visit the [link](https://github.com/ashish7zeph/android-kotlin-Gravity-app/tree/master/app/src/main/java/com/zeph7/gravity)
-```kotlin
-package com.zeph7.gravity
+For Kotlin code files visit the [link](https://github.com/ashish7zeph/android-kotlin-Gravity-app/tree/master/app/src/main/java/com/zeph7/gravity)
 
-import android.content.Intent
-import android.support.v7.app.AppCompatActivity
-import android.os.Bundle
-import android.os.Handler
-import android.view.Window
-import android.view.WindowManager
-import android.view.animation.AnimationUtils
-import kotlinx.android.synthetic.main.activity_splash.*
+Backend files are stored in three packages:
 
-class SplashActivity : AppCompatActivity() {
+* [activity](https://github.com/ashish7zeph/android-kotlin-Gravity-app/tree/master/app/src/main/java/com/zeph7/choreapplication/activity)
+* [data](https://github.com/ashish7zeph/android-kotlin-Gravity-app/tree/master/app/src/main/java/com/zeph7/choreapplication/data)
+* [model](https://github.com/ashish7zeph/android-kotlin-Gravity-app/tree/master/app/src/main/java/com/zeph7/choreapplication/model)
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+Frontend resource files are stored in `res` package
 
-        window.requestFeature(Window.FEATURE_NO_TITLE)
+* [res](https://github.com/ashish7zeph/android-kotlin-Gravity-app/tree/master/app/src/main/res)
 
-        window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-            WindowManager.LayoutParams.FLAG_FULLSCREEN
-        )
+Android manifest file for the project:
 
-        setContentView(R.layout.activity_splash)
-
-        Handler().postDelayed({
-            startActivity(Intent(this@SplashActivity, MainActivity::class.java))
-        }, 1000)
-    }
-}
-```
-
-`Planet` class is used throughtout the Project Activities to create Activity individual for each planet
-
-```kotlin
-package com.zeph7.gravity
-
-import java.io.Serializable
-
-class Planet (val Name: String, val Image: Int, val Gravity: Double): Serializable{
-}
-```
+* [AndroidManifest.xml](https://github.com/ashish7zeph/android-kotlin-Gravity-app/blob/master/app/src/main/AndroidManifest.xml)
