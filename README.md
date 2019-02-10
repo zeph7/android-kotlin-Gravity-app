@@ -65,9 +65,9 @@ For Kotlin code files visit the [link](https://github.com/ashish7zeph/android-ko
 
 Backend files are stored in three packages:
 
-* [activity](https://github.com/ashish7zeph/android-kotlin-Gravity-app/tree/master/app/src/main/java/com/zeph7/choreapplication/activity)
-* [data](https://github.com/ashish7zeph/android-kotlin-Gravity-app/tree/master/app/src/main/java/com/zeph7/choreapplication/data)
-* [model](https://github.com/ashish7zeph/android-kotlin-Gravity-app/tree/master/app/src/main/java/com/zeph7/choreapplication/model)
+* [activity](https://github.com/ashish7zeph/android-kotlin-Gravity-app/tree/master/app/src/main/java/com/zeph7/gravity/activity)
+* [data](https://github.com/ashish7zeph/android-kotlin-Gravity-app/tree/master/app/src/main/java/com/zeph7/gravity/data)
+* [model](https://github.com/ashish7zeph/android-kotlin-Gravity-app/tree/master/app/src/main/java/com/zeph7/gravity/model)
 
 Frontend resource files are stored in `res` package
 
