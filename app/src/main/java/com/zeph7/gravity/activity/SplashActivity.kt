@@ -1,4 +1,4 @@
-package com.zeph7.gravity
+package com.zeph7.gravity.activity
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
@@ -6,8 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.Window
 import android.view.WindowManager
-import android.view.animation.AnimationUtils
-import kotlinx.android.synthetic.main.activity_splash.*
+import com.zeph7.gravity.R
 
 class SplashActivity : AppCompatActivity() {
 

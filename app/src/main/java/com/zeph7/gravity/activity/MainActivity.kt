@@ -1,12 +1,12 @@
-package com.zeph7.gravity
+package com.zeph7.gravity.activity
 
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.view.View
 import android.view.Window
 import android.view.WindowManager
-import android.view.animation.AnimationUtils
+import com.zeph7.gravity.data.Planet
+import com.zeph7.gravity.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -20,7 +20,10 @@ class MainActivity : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
-        overridePendingTransition(R.anim.fade_in_transition, R.anim.fade_out_transition)
+        overridePendingTransition(
+            R.anim.fade_in_transition,
+            R.anim.fade_out_transition
+        )
         setContentView(R.layout.activity_main)
 
         weightOnPlanetId.setOnClickListener {

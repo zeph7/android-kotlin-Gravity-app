@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
                                              android:layout_height="match_parent">
     <android.support.constraint.ConstraintLayout
             android:layout_width="362dp"
@@ -8,41 +10,59 @@
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginLeft="24dp"
             android:background="@color/colorWhite"
-            android:layout_marginStart="24dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="25dp"
-            android:layout_marginRight="25dp" android:layout_marginTop="16dp" app:layout_constraintTop_toTopOf="parent">
+            android:layout_marginStart="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toTopOf="parent">
 
         <TextView
                 android:text="gravity: 1.0"
                 android:layout_width="245dp"
                 android:layout_height="23dp"
                 android:id="@+id/planetGravity"
-                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="21dp"
-                android:layout_marginRight="21dp" app:layout_constraintStart_toEndOf="@+id/planetImageIcon"
-                android:layout_marginLeft="12dp" android:layout_marginStart="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="21dp"
+                android:layout_marginRight="21dp"
+                app:layout_constraintStart_toEndOf="@+id/planetImageIcon"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
                 app:layout_constraintTop_toBottomOf="@+id/planetName"
-                android:layout_marginBottom="17dp" app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="17dp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 android:fontFamily="serif-monospace"/>
         <TextView
                 android:text="Earth"
                 android:layout_width="245dp"
                 android:layout_height="29dp"
                 android:id="@+id/planetName"
-                android:textSize="24sp" app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginEnd="21dp" android:layout_marginRight="21dp"
-                app:layout_constraintStart_toEndOf="@+id/planetImageIcon" android:layout_marginLeft="12dp"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="21dp"
+                android:layout_marginRight="21dp"
+                app:layout_constraintStart_toEndOf="@+id/planetImageIcon"
+                android:layout_marginLeft="12dp"
                 android:layout_marginStart="12dp"
                 app:layout_constraintHorizontal_bias="0.0"
-                android:layout_marginTop="16dp" app:layout_constraintTop_toTopOf="parent"
-                android:textColor="@color/colorBlack" android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
                 android:fontFamily="sans-serif-smallcaps"/>
         <ImageView
                 android:layout_width="55dp"
-                android:layout_height="50dp" app:srcCompat="@drawable/ic_earth"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/ic_earth"
                 android:id="@+id/planetImageIcon"
-                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="28dp"
-                android:layout_marginStart="28dp" app:layout_constraintTop_toTopOf="parent"
-                android:layout_marginTop="16dp" android:layout_marginBottom="27dp"
-                app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"/>
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="28dp"
+                android:layout_marginStart="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="27dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"/>
 
 
     </android.support.constraint.ConstraintLayout>

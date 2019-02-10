@@ -1,6 +1,5 @@
-package com.zeph7.gravity
+package com.zeph7.gravity.activity
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Build
 import android.support.v7.app.AppCompatActivity
@@ -9,9 +8,9 @@ import android.support.annotation.RequiresApi
 import android.view.Window
 import android.view.WindowManager
 import android.view.animation.AnimationUtils
-import kotlinx.android.synthetic.main.activity_planet.*
+import com.zeph7.gravity.R
+import com.zeph7.gravity.data.Planet
 import kotlinx.android.synthetic.main.activity_planet_info.*
-import kotlinx.android.synthetic.main.planet_list_item.*
 
 class PlanetInfoActivity : AppCompatActivity() {
 
@@ -24,7 +23,10 @@ class PlanetInfoActivity : AppCompatActivity() {
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
-        overridePendingTransition(R.anim.fade_in_transition, R.anim.fade_out_transition)
+        overridePendingTransition(
+            R.anim.fade_in_transition,
+            R.anim.fade_out_transition
+        )
         setContentView(R.layout.activity_planet_info)
 
         var planet = intent.getSerializableExtra("planet") as Planet

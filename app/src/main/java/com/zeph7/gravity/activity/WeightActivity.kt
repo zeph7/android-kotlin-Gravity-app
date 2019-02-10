@@ -1,4 +1,4 @@
-package com.zeph7.gravity
+package com.zeph7.gravity.activity
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
@@ -7,6 +7,9 @@ import android.view.Window
 import android.view.WindowManager
 import android.view.animation.AnimationUtils
 import android.widget.ListView
+import com.zeph7.gravity.R
+import com.zeph7.gravity.data.Planet
+import com.zeph7.gravity.model.PlanetListAdapter
 
 class WeightActivity : AppCompatActivity() {
 

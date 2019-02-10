@@ -1,4 +1,4 @@
-package com.zeph7.gravity
+package com.zeph7.gravity.activity
 
 import android.content.Intent
 import android.os.Build
@@ -9,6 +9,8 @@ import android.text.TextUtils
 import android.view.Window
 import android.view.WindowManager
 import android.view.animation.AnimationUtils
+import com.zeph7.gravity.R
+import com.zeph7.gravity.data.Planet
 import kotlinx.android.synthetic.main.activity_planet.*
 import java.lang.Double.parseDouble
 
@@ -24,7 +26,10 @@ class PlanetActivity : AppCompatActivity() {
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN)
 
-        overridePendingTransition(R.anim.fade_in_transition, R.anim.fade_out_transition)
+        overridePendingTransition(
+            R.anim.fade_in_transition,
+            R.anim.fade_out_transition
+        )
         setContentView(R.layout.activity_planet)
 
         var planet = intent.getSerializableExtra("planet") as Planet

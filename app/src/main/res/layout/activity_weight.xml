@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorBlack"
-        tools:context=".WeightActivity">
+        tools:context=".activity.WeightActivity">
 
     <ListView
             android:layout_width="323dp"
@@ -15,8 +15,7 @@
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="43dp"
             android:layout_marginStart="43dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="43dp"
             android:layout_marginRight="43dp"
-            android:layout_marginBottom="40dp" app:layout_constraintBottom_toTopOf="@+id/textView3"
-    />
+            android:layout_marginBottom="40dp" app:layout_constraintBottom_toTopOf="@+id/textView3"/>
     <TextView
             android:text="Application version"
             android:layout_width="146dp"

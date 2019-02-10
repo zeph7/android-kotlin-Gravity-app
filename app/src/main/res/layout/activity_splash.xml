@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/gravity_wall"
-        tools:context=".SplashActivity">
+        tools:context=".activity.SplashActivity">
     <TextView
             android:id="@+id/gravityId"
             android:text="Gravity"
